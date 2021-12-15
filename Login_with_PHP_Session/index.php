@@ -22,8 +22,8 @@ $conn = mysqli_connect('localhost', 'root', '' , 'users') or die ('Unable to con
     <h2>Please Login</h2>
     <div>
         <form action = "index.php" method = "post">
-            <input type = "text" class = "field" name = "Username" placeholder = "Username" required = ""><br/>
-            <input type = "password" class = "field" name = "Pass" placeholder = "Password" required = ""><br/>
+            <input type = "text" class = "field" name = "Username" placeholder = "Username" required = ""><br/> //Username = admin
+            <input type = "password" class = "field" name = "Pass" placeholder = "Password" required = ""><br/> //Password = admin
             <input type = "submit" class = "field" name = "login" value = "Login">
         </form>
     </div>
