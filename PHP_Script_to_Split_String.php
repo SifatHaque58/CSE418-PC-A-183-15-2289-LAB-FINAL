@@ -1,4 +1,3 @@
-//Answer to the question no.7
 
 <?php
 $str= '092007'; 
